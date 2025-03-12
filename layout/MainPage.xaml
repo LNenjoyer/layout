@@ -4,18 +4,6 @@
              x:Class="layout.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout Spacing="10">
-            <HorizontalStackLayout Spacing="10">
-                <Image Source="dotnet_bot.png" />
-                <Label Text="Obrazek z tekstem" />
-                
-
-            </HorizontalStackLayout>
-            <Label Text="Kolejny element" />
-            <Button/>
-            <Button/>
-            <Button/>
-        </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
