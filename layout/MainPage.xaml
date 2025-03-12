@@ -3,7 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="layout.MainPage">
 
-    <ScrollView>
+    <ScrollView >
+        <StackLayout BackgroundColor="#127ac7" >
+            <Label Text="Nazwa użytkownika"
+                   Padding="{OnPlatform Default='5', iOS='5,20,5,5'}"
+                   />
+            <Image Source="dotnet_bot.png"
+                   MaximumWidthRequest="100000"/>
+            <HorizontalStackLayout>
+                <Button Text="Like" Padding="{OnPlatform Default='5', iOS='5,20,5,5'}"/>
+                <Button Text="Share" Padding="{OnPlatform Default='5', iOS='5,20,5,5'}"/>
+            </HorizontalStackLayout>
+            <BoxView HeightRequest="1" 
+                     MaximumWidthRequest="10000"
+                     Color="#f0f0f0"/>
+            <Label Text="Liczba polubień" Padding="{OnPlatform Default='5', iOS='5,20,5,5'}"/>
+
+
+        </StackLayout>
     </ScrollView>
 
 </ContentPage>
